@@ -44,85 +44,21 @@ iframe {
     background-color: rgba(0, 0, 0, 0.514);
 }
 
-nav {
-    position: absolute;
-    width: 10%;
-    height: 100vh;
-    top: 0px;
-    left: 90%;
-    background-color: rgba(0, 0, 0, 0);
+section#rede_sociais {
+    text-align: right;
 }
 
-#btn1 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    margin-left: 60%;
-    margin-top: 80px;
-    background: url('imagens/logo-home.jpg') no-repeat center;
-    background-size: cover;
+section#rede_sociais img {
+    width: 50px;
     border-radius: 50%;
-    transform: translate(-60%, -60%);
-    
-
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+   
 }
 
-#btn2 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    margin-left: 60%;
-    margin-top: 170px;
-    background: url('imagens/logo-youtube.jpg') no-repeat center;
-    background-size: cover;
-    border-radius: 50%;
-    transform: translate(-60%, -60%);
-}
+section#rede_sociais img:hover {
+    border:  2px solid #ffffff79;
+    transform: translate(-3px -3px);
+    transition: tranform 2;
 
-#btn3 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    margin-left: 60%;
-    margin-top: 255px;
-    background: url('imagens/logo-twitter.jpg') no-repeat center;
-    background-size: cover;
-    border-radius: 50%;
-    transform: translate(-60%, -60%);
-}
-
-#btn4 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    margin-left: 60%;
-    margin-top: 340px;
-    background: url('imagens/logo-facebook.jpg') no-repeat center;
-    background-size: cover;
-    border-radius: 50%;
-    transform: translate(-60%, -60%);
-}
-
-#btn5 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    margin-left: 60%;
-    margin-top: 440px;
-    background: url('imagens/logo-github.jpg') no-repeat center;
-    background-size: cover;
-    border-radius: 50%;
-    transform: translate(-60%, -60%);
-}
-
-#btn6 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    margin-left: 60%;
-    margin-top: 540px;
-    background: url('imagens/logo-instagram.jpg') no-repeat center;
-    background-size: cover;
-    border-radius: 50%;
-    transform: translate(-60%, -60%);
 }
