@@ -32,16 +32,18 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
     background: url("imagens/frame-iphone.png" ) no-repeat;
+    
 }
 
 iframe {
     position: absolute;
     width: 268px;
-    height: 469px;
+    height: 470px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(252, 249, 249, 0.027);
+    
 }
 
 section#rede_sociais {
@@ -55,6 +57,7 @@ section#rede_sociais img {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
    
 }
+
 
 section#rede_sociais img:hover {
     border:  2px solid #ffffff79;
